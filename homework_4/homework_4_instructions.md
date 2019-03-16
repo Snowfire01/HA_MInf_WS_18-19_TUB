@@ -17,7 +17,7 @@ Bsp.:
 
 All diese Inputs sollen nun verwendet werden um die zu erwartende Dateigröße einer .wav-Datei zu errechnen. Das Ergebnis soll in Mebibyte (https://en.wikipedia.org/wiki/Mebibyte) angegeben und auf drei Nachkommastellen gerundet werden.
 
-**Als Ressource zum Testen können Sie [speech_clean] benutzen.**
+**Als Ressource zum Testen können Sie [speech_clean.wav](https://github.com/Snowfire01/HA_MInf_WS_18-19_TUB/blob/master/resources/speech_clean.wav) benutzen.**
 
 ### 1.2 Textaufgabe
 Weshalb ist eine tatsächliche Datei auf Ihrem Computer immer ein wenig größer als die von den hier betrachteten Parametern abhängige Dateigröße? Schreiben Sie die Antwort als Kommentar in den Code!
