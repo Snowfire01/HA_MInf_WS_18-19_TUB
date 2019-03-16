@@ -1,0 +1,52 @@
+%matplotlib inline
+%config InlineBackend.figure_format = 'retina'     
+
+import matplotlib.pyplot as plt
+from PIL import Image 
+import numpy as np
+import colorconversion as cc
+from copy import deepcopy
+
+# Load Image and get image data as numpy array
+image_file = Image.open("glasgow_clyde_sse.jpg") 
+image_file.load() 
+image_data = np.asarray(image_file, dtype=np.uint8)
+(img_dim_y, img_dim_x, img_depth) = image_data.shape
+
+# Create neutral layer to stack with the isolated ycbcr values in order to get proper pixel arrays again
+neutralLayer = np.full((img_dim_y, img_dim_x), 128, dtype = np.uint8)
+
+# Convert original rgb image data into ycbcr image data
+ycbcr_image = cc.rgb_to_ycbcr(image_data)
+
+# Isolate the y, cb, and cr values from the respective other ones and save each in its on variable
+y_data = ycbcr_image[:, :, 0]
+cb_data = ycbcr_image[:, :, 1]
+cr_data = ycbcr_image[:, :, 2]
+
+# Stack the isolated y, cb and cr values with the neutral layer so that you get pixel arrays instead of single values
+y_image_data = np.stack([y_data, neutralLayer, neutralLayer], axis = 2)
+cb_image_data = np.stack([neutralLayer, cb_data, neutralLayer], axis = 2)
+cr_image_data = np.stack([neutralLayer, neutralLayer, cr_data], axis = 2)
+
+# Convert all the newly created pixel arrays back into rgb arrays so that they can be plotted
+y_rgb_image = cc.ycbcr_to_rgb(y_image_data)
+cb_rgb_image = cc.ycbcr_to_rgb(cb_image_data)
+cr_rgb_image = cc.ycbcr_to_rgb(cr_image_data)
+
+# Plot all the plots!
+plt.subplot(231)
+plt.imshow(image_data)
+plt.axis("off")
+
+plt.subplot(232)
+plt.imshow(y_rgb_image)
+plt.axis("off")
+
+plt.subplot(233)
+plt.imshow(cb_rgb_image)
+plt.axis("off")
+
+plt.subplot(234)
+plt.imshow(cr_rgb_image)
+plt.axis("off")
