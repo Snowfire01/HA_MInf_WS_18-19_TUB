@@ -1,7 +1,7 @@
 # Hausaufgaben "Einführung in die Medieninformatik" | TU BERLIN | WS 2018_19
 Hausaufgaben im Modul "Einführung in die Medieninformatik" an der TU Berlin im Wintersemester 2018/19.
 
-[Aufgabenstellung 1 folgt]
+[Aufgabenstellung 1: Pseudocode nicht veröffentlicht, weil nur PDF abgegeben wurde]
 
 [Aufgabenstellung 2 Bonuspunkterechner | Matrizenprodukt](https://github.com/Snowfire01/HA_MInf_WS_18-19_TUB/blob/master/homework_9/homework_9_instructions.md)
 
@@ -11,7 +11,7 @@ Hausaufgaben im Modul "Einführung in die Medieninformatik" an der TU Berlin im 
 
 [Aufgabenstellung 5: Dezibelrechner | Tiefpassfilter | Schmalbandfilter](https://github.com/Snowfire01/HA_MInf_WS_18-19_TUB/blob/master/homework_5/homework_5_instructions.md)
 
-[Aufgabenstellung 6 folgt]
+[Aufgabenstellung 6: LaTex nicht veröffentlicht, weil nur PDF abgegeben wurde]
 
 [Aufgabenstellung 7: Berechnung eines SNR](https://github.com/Snowfire01/HA_MInf_WS_18-19_TUB/blob/master/homework_7/homework_7_instructions.md)
 
