@@ -19,7 +19,7 @@ Benötigt werden:
 Erstellen Sie ein Host-Skript mit jupyter! Hier soll der Name der Bild-Datei eingegeben werden und die Funktionen zur Farbfilterung aufgerufen werden. Desweiteren soll im Host-Skript der Filtermodus bestimmt werden. Dies kann über eine Nutzerabfrage passieren oder festgelegt werden. Denken Sie daran, die externen Funktionen, entsprechend zu importieren! 
 Abschließend soll im Host-Skript der Befehl stehen, der das gefilterte Bild anzeigt. Es soll kein Subplot erstellt werden, sondern es soll nur das Bild angezeigt werden, welches gerade erstellt/- gefiltert wurde. Das Ergebnis der vier Filter-Modi soll (beispielhaft) wie folgt aussehen:
 
-[Bild mit Ergebnis]
+![Abbildung 2: Orginales Bild und YCbCr-Farbmodell ==> Mod’1.Quadrant’, Mod’2.Quadrant’, Mod’3.Quadrant’, Mod’4.Quadrant’; ©Album-Cover AHAB - The Boats of the Glen Carrig](https://github.com/Snowfire01/HA_MInf_WS_18-19_TUB/blob/master/resources/homework_9_result_example.png?raw=true)
 
 ## Aufgabe 2 - ColorSplash-Filter
 
