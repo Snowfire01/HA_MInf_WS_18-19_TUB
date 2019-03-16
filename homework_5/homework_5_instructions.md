@@ -21,5 +21,5 @@ Beantworten Sie folgende Frage als Kommentar in dem abzugebendem Code: *"Vor der
 ## Aufgabe 3 - WAV-Schmalbandfilter
 Schreiben Sie einen Frequenzfilter für eine .wav-Datei in Python, der nur auf das Frequenzspektrum eines alten Analogtelefons zurückgreift (Schmalband). Der Filter soll alle Frequenzen unter 300 Hz und über 3.4 kHz filtern. Nach der Filterung soll das Resultat als Plot (immer mit korrekter Achsenbeschriftung!) dargestellt werden.
 
-**Als Ressource zum Testen können Sie [speech_clean] benutzen.**
+**Als Ressource zum Testen können Sie [speech_clean.wav](https://github.com/Snowfire01/HA_MInf_WS_18-19_TUB/blob/master/resources/speech_clean.wav) benutzen.**
 
