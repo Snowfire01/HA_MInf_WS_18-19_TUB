@@ -5,6 +5,7 @@ Was ist die Entropie H der Zeichen Z? Schreiben Sie eine Funktion in Python, die
 *(Bsp. „Die Entropie H der Zeichen Z ist: XZY.“)*
 
 *Tabelle 1: Zeichen Z und ihre Auftrittswahrscheinlichkeit*
+
 |  Zeichen Z| ∆ | Σ | Ω | κ | Φ |
 |--|--|--|--|--|--|
 | Wahrscheinlichkeit | 0,2 | 0,125 | 0,2 | 0,345 | 0,13 |
