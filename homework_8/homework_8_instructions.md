@@ -17,7 +17,8 @@ Benötigt werden:
 ## Aufgabe 1 - Hostskript erstellen
 
 Erstellen Sie ein Host-Skript mit jupyter! Hier soll die Bild-Datei eingelesen und die Funktionen zur Farbraumtransformation aufgerufen werden. Denke Sie daran, die externen Funktionen entsprechend zu importieren! Im Host-Skript soll weiterhin der subplot erstellt werden. Das Ergebniss soll wie folgt aussehen:
-[Bild mit Ergebnis]
+
+![Abbildung 2: Org. Bild, Y-Kanal, CB-Kanal, CR-Kanal](https://github.com/Snowfire01/HA_MInf_WS_18-19_TUB/blob/master/resources/homework_8_result_example.png?raw=true)
 
 ## Aufgabe 2 - RGB zu YCbCr
 
