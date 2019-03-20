@@ -8,8 +8,8 @@ import numpy as numpy
 
 ##################### 5.1 #####################
 
-x = input("Gib die dB-Anzahl des ersten Summandes an: ")
-y = input("Gib die dB-Anzahl des zweiten Summandes an: ")
+x = input("Gib die dB-Anzahl des ersten Summanden an: ")
+y = input("Gib die dB-Anzahl des zweiten Summanden an: ")
 dB1 = int(x)
 dB2 = int(y)
 
